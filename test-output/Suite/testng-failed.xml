@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Hotel Booking(failed)">
+    <classes>
+      <class name="MB.MBHotel">
+        <methods>
+          <include name="HotelHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MB.MBHotel -->
+    </classes>
+  </test> <!-- Hotel Booking(failed) -->
+  <test thread-count="5" parallel="tests" name="Flight Booking(failed)">
+    <classes>
+      <class name="MB.MBFlightbooking">
+        <methods>
+          <include name="loginHomePage" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- MB.MBFlightbooking -->
+    </classes>
+  </test> <!-- Flight Booking(failed) -->
+</suite> <!-- Failed suite [Suite] -->

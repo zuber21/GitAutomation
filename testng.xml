@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests	">
+	
+
+	
+  <test  name="Flight Booking">
+    <classes>
+      <class name="MB.MBFlightbooking"/>
+     </classes>
+  </test>
+      
+      
+  <test  name="Hotel Booking">	
+        <classes>
+          <class name="MB.MBHotel"/>
+        </classes> 
+  </test > 
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
